@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Grow With Glow Digitals. Get in touch with our team for a free consultation.">
+    <meta name="keywords" content="contact us, free consultation, digital marketing services">
+    <title>Contact Us | Grow With Glow Digitals</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header role="banner">
+        <div class="container">
+            <h1>Grow With Glow Digitals</h1>
+            <nav role="navigation" aria-label="Main Navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html" aria-current="page">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main role="main">
+        
+        <!-- Contact Hero -->
+        <section id="contact-hero" aria-labelledby="contact-title">
+            <div class="container">
+                <h1 id="contact-title">Get In Touch</h1>
+                <p>We'd love to hear from you. Let's discuss your digital marketing goals.</p>
+            </div>
+        </section>
+
+        <!-- Contact Content -->
+        <section id="contact-content" aria-label="Contact Information and Form">
+            <div class="container">
+                <div class="contact-grid">
+                    
+                    <!-- Contact Information -->
+                    <aside id="contact-info" aria-label="Contact Details">
+                        <h2>Contact Information</h2>
+                        
+                        <article>
+                            <h3>Email</h3>
+                            <p>
+                                <a href="mailto:hello@growwithglowdigitals.com">hello@growwithglowdigitals.com</a>
+                            </p>
+                        </article>
+
+                        <article>
+                            <h3>Phone</h3>
+                            <p>
+                                <a href="tel:+1234567890">+1 (234) 567-8900</a>
+                            </p>
+                        </article>
+
+                        <article>
+                            <h3>Address</h3>
+                            <p>
+                                123 Digital Avenue<br>
+                                San Francisco, CA 94107<br>
+                                United States
+                            </p>
+                        </article>
+
+                        <article>
+                            <h3>Business Hours</h3>
+                            <p>
+                                Monday - Friday: 9:00 AM - 6:00 PM PT<br>
+                                Saturday: 10:00 AM - 4:00 PM PT<br>
+                                Sunday: Closed
+                            </p>
+                        </article>
+
+                        <article>
+                            <h3>Follow Us</h3>
+                            <nav aria-label="Social Media Links">
+                                <ul>
+                                    <li><a href="#facebook">Facebook</a></li>
+                                    <li><a href="#twitter">Twitter</a></li>
+                                    <li><a href="#linkedin">LinkedIn</a></li>
+                                    <li><a href="#instagram">Instagram</a></li>
+                                </ul>
+                            </nav>
+                        </article>
+                    </aside>
+
+                    <!-- Contact Form -->
+                    <section id="contact-form" aria-labelledby="form-title">
+                        <h2 id="form-title">Send Us a Message</h2>
+                        <form method="POST" action="/submit-contact">
+                            
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input 
+                                    type="text" 
+                                    id="name" 
+                                    name="name" 
+                                    required 
+                                    aria-required="true"
+                                    placeholder="John Doe"
+                                >
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input 
+                                    type="email" 
+                                    id="email" 
+                                    name="email" 
+                                    required 
+                                    aria-required="true"
+                                    placeholder="john@example.com"
+                                >
+                            </div>
+
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input 
+                                    type="tel" 
+                                    id="phone" 
+                                    name="phone" 
+                                    placeholder="+1 (234) 567-8900"
+                                >
+                            </div>
+
+                            <div class="form-group">
+                                <label for="company">Company Name</label>
+                                <input 
+                                    type="text" 
+                                    id="company" 
+                                    name="company" 
+                                    placeholder="Your Company"
+                                >
+                            </div>
+
+                            <div class="form-group">
+                                <label for="service">Service Interest *</label>
+                                <select id="service" name="service" required aria-required="true">
+                                    <option value="">-- Select a Service --</option>
+                                    <option value="seo">SEO Optimization</option>
+                                    <option value="content">Content Marketing</option>
+                                    <option value="social">Social Media Management</option>
+                                    <option value="ppc">PPC Advertising</option>
+                                    <option value="email">Email Marketing</option>
+                                    <option value="web">Web Design</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Message *</label>
+                                <textarea 
+                                    id="message" 
+                                    name="message" 
+                                    rows="5" 
+                                    required 
+                                    aria-required="true"
+                                    placeholder="Tell us about your project and goals..."
+                                ></textarea>
+                            </div>
+
+                            <div class="form-group checkbox">
+                                <input 
+                                    type="checkbox" 
+                                    id="privacy" 
+                                    name="privacy" 
+                                    required 
+                                    aria-required="true"
+                                >
+                                <label for="privacy">I agree to the Privacy Policy *</label>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                            <p class="form-note">* Required fields</p>
+                        </form>
+                    </section>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Grow With Glow Digitals</h3>
+                    <p>Your trusted partner for digital marketing success</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <nav aria-label="Footer Navigation">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="portfolio.html">Portfolio</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <nav aria-label="Legal Links">
+                        <ul>
+                            <li><a href="#privacy">Privacy Policy</a></li>
+                            <li><a href="#terms">Terms of Service</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Grow With Glow Digitals. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
