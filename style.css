@@ -580,7 +580,51 @@ footer {
         grid-template-columns: 1fr;
         gap: 20px;
     }
+/* Floating WhatsApp Button */
 
+.whatsapp-float {
+
+position: fixed;
+
+bottom: 20px;
+
+right: 20px;
+
+background: #25D366;
+
+color: white;
+
+font-size: 26px;
+
+width: 60px;
+
+height: 60px;
+
+display: flex;
+
+align-items: center;
+
+justify-content: center;
+
+border-radius: 50%;
+
+text-decoration: none;
+
+box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+
+transition: 0.3s;
+
+z-index: 999;
+
+}
+
+.whatsapp-float:hover {
+
+background: #1ebe5d;
+
+transform: scale(1.1);
+
+}
     .portfolio-item:nth-child(even) {
         direction: ltr;
     }
